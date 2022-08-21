@@ -1,0 +1,43 @@
+
+
+#Contents {
+    background-color: black;
+    color: aliceblue;
+    padding: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16pt;
+}
+
+#navbar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+#registration, #information, #workoutSelection {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 10px;
+}
+
+#exerciseSelection {
+    display: flex;
+    flex-flow: column;
+}
+
+#select {
+    border: 5px solid white;
+    font-weight: bolder;
+    padding: 3px;
+}
+
+#img {
+    display: flex;
+    float: right;
+    height: fit-content;
+    width: fit-content;
+}
+
+#exerciseReveal {
+    display: block;
+}
